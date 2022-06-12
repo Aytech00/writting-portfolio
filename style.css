@@ -1,0 +1,52 @@
+
+
+.container{
+    padding: 9% 8%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Frank Ruhl Libre', serif;;
+}
+
+.image{
+    width: 30%;
+    height: 30%;
+    border-radius: 200px;
+    box-shadow: 1px 1px 4px;
+}
+
+.text{
+    padding: 2% 15%;
+   
+}
+
+.button{
+    text-decoration:none ;
+    border: 1px solid black;
+    padding: 5px 15px;
+    color: black;
+    font-size: 20px;
+    box-shadow: 1px 2px;
+}
+
+.Portfolio{
+    padding: 5% 7%;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Frank Ruhl Libre', serif;;
+}
+.title{
+    margin-bottom: 5%;
+}
+
+.card{
+
+    width: 80%;
+    
+}
+
+footer{
+
+    text-align: center;
+   background-color: whitesmoke;
+}
