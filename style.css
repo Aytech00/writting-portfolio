@@ -20,7 +20,7 @@ body {
     width: 30%;
     height: 20%;
     border-radius: 50%;
-    box-shadow: 1px 1px 4px;
+    /* box-shadow: 1px 1px 4px; */
 }
 
 .text {
