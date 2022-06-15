@@ -1,15 +1,19 @@
 body {
     box-sizing: border-box;
+    
+    
 }
 
 .container {
     padding:5% 8%;
     text-align: center;
     font-family: 'Frank Ruhl Libre', serif;
+   
+    
 
 }
 .inner-container{
-    background-color: whitesmoke;
+    background-color: skyblue;
     padding: 6% 1%;
     border-radius: 10px;
     margin: 2%;
@@ -20,20 +24,22 @@ body {
     width: 30%;
     height: 20%;
     border-radius: 50%;
-    /* box-shadow: 1px 1px 4px; */
+    box-shadow: 1px 1px 4px;
 }
 
 .text {
-    padding: 2% 15%;
+    padding: 2% 10%;
+    color: black;
+
 }
 
 .button {
     text-decoration: none;
-    border: 1px solid;
+    border: 1px solid black;
     background-color: skyblue;
     border-radius: 5px;
     padding: 6px 20px;
-    color: white;
+    color: black;
     font-size: 23px;
     box-shadow: 1px 1px 3px;
 }
@@ -48,6 +54,7 @@ body {
 
     border-radius: 10px;
     margin-top: 6%;
+    background-color: whitesmoke;
    
 }
 
@@ -85,6 +92,7 @@ body {
 
 .card-text {
     text-decoration: none;
+    color: black;
 }
 
 footer {
