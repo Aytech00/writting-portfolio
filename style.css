@@ -21,7 +21,7 @@ body {
 #menu-link-1{
     color: skyblue;
     font-family: 'Tiro Gurmukhi', serif;
-    font-size: 15px;
+    font-size: 18px;
    
     padding: 3px 5px;
     margin: 4px;
@@ -29,13 +29,14 @@ body {
 
 
 #menu-link-1::after{
+    content: "" ;
     
 }
 
 #menu-link-2{
     color: ;
     font-family: 'Tiro Gurmukhi', serif;
-    font-size: 15px;
+    font-size: 18px;
     
     padding: 3px 5px;
     margin: 4px;
@@ -45,32 +46,31 @@ body {
 #menu-link-3{
     color: skyblue;
     font-family: 'Tiro Gurmukhi', serif;
-    font-size: 15px;
+    font-size: 18px;
    
     padding: 3px 5px;
     margin: 4px;
 
 }
 .container {
-    padding:5% 8%;
+    padding:8% 6%;
     text-align: center;
     font-family: 'Tiro Gurmukhi', serif;
 
 }
 .inner-container{
     background-color: skyblue;
-    padding: 6% 1%;
+    padding: 8% 2%;
     border-radius: 10px;
-    margin: 2%;
+    margin: 3%;
     box-shadow: 2px 2px 5px;
     font-family: 'Tiro Gurmukhi', serif;
 }
 
 .image {
-    width: 30%;
-    height: 20%;
-    border-radius: 50%;
-    box-shadow: 1px 1px 4px;
+    width: 29%;
+    height: 19%;
+    border: 1px solid white;
 }
 
 .text {
@@ -154,8 +154,13 @@ footer {
 
 
 @media screen and (max-width:900px) {
+
+
+    .inner-container{
+        margin-top: 8%;
+    }
     .card{
-        margin: 8px;
+        margin: 5px;
     }
 
     #portfolio{

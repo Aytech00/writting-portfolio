@@ -1,5 +1,22 @@
+
+
 .main-container{
-    padding: 8% 10%;
-    text-align: center;
+    padding: 10% 10%;
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: white;
+
     
+}
+
+.inner-container{
+    border: 1px solid ;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    
+}
+
+.skill-container{
+    margin-left: 5%;
+    margin-top: 3rem;
 }
